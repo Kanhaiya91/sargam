@@ -1,0 +1,152 @@
+
+#first-section {
+    width: 100%;
+    margin-top: -10px;
+    background-image:url(image/SARGAM.png);
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+#second-section{
+   height: auto; 
+   background-color: rgb(20, 20, 20);
+   opacity: 95%;
+   /* margin: 0rem -15rem 0rem 0rem; */
+   margin-right: -15rem;
+   /* margin-top: -80rem; */
+   display: inline-block;
+   width: 80%;
+   margin-left: 20.3%;
+   
+
+   /* position: fixed; */
+   
+}
+
+#nav-section{
+    height: 10%;
+    background-color:black;
+    /* opacity: 10%; */
+    position: fixed ;
+    width: 100%;
+}
+
+#second-section main{
+    height: 80%;
+    
+}
+#main-section{
+    
+    padding-top: 10rem;
+    width: 100%;
+}
+#main-section h1{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+    padding-left: 3rem;
+}
+#main-section-div1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: auto;
+    
+}
+
+.main-section-div2{
+    height: 17rem;
+    width: 15rem;
+    padding:1rem;
+    
+    /* border: .5px solid rgb(214, 207, 207); */
+    margin: auto;
+    margin-bottom: 2rem;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid gray;
+   
+}
+#main-section-div1 :hover{
+    background-color: black;
+    transition-delay: 1s;
+    transition: all ease-in-out;
+}
+.main-section-div2 a img{
+    height: 13rem;
+    width: 15rem;
+    padding: 0.5rem ;
+    /* border: 2px solid gray; */
+}
+.main-section-div2 a{
+    text-decoration: none;
+     
+    color: white;
+    text-transform: capitalize;
+}
+/* aside section  */
+#aside-section{
+    display: inline-block;
+    width: 20%;
+    background-color: black;
+    height: 50rem;
+    position: fixed;
+    vertical-align: top;
+    color: white;
+    
+}
+#aside-section-div1{
+   margin-top: 2rem;
+    text-align: center;
+}
+#aside-section-div1 img{
+    border: 1px solid grey;
+    border-radius: 50%;
+    width: 60%;
+    
+}
+#aside-section-div1 :hover{
+    border: 3px solid gold;
+    transition: all ease-in-out;
+}
+#first-section-ul-div ul li{
+    height: 3rem;
+    list-style: none;
+}
+#first-section-ul-div ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    letter-spacing: 0.1em;
+    padding: 5px;
+    
+}
+#first-section-ul-div{
+    padding-top: 1rem;
+}
+/* nav section  */
+#nav-section-div1{
+    display: inline-block;
+    width: 60%;
+    text-align: center;
+    vertical-align: middle;
+}
+#nav-section-div2{
+    display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+#nav-section-div2 img{
+    border-radius: 50%;
+    height: 2rem;
+}
+
+#input-search{
+    width: 80%;
+    background-color: rgb(27, 26, 26);
+    border: 0;
+    color: white;
+    
+}
